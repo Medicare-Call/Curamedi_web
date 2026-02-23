@@ -1,0 +1,71 @@
+:root {
+  --mc-main: #00b859;
+  --mc-cta: #35c156;
+  --mc-bg-light: #f4fcf8;
+  --mc-gray-1: #ececec;
+  --mc-gray-4: #8a8a8a;
+  --mc-gray-8: #313131;
+  --mc-stat: #10d266;
+}
+
+body {
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  word-break: keep-all;
+  background-color: #fafafa;
+  color: var(--mc-gray-8);
+}
+
+.card-shadow {
+  box-shadow: -4px 0px 8px 0px rgba(34,34,34,0.02),
+              4px 0px 8px 0px rgba(34,34,34,0.02),
+              0px 4px 8px 0px rgba(34,34,34,0.02);
+}
+
+.card-shadow-lg {
+  box-shadow: 0 8px 30px rgba(0,0,0,0.06), 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.cta-button {
+  background-color: var(--mc-cta);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.cta-button:hover {
+  background-color: #00a350;
+  transform: translateY(-1px);
+  box-shadow: 0 8px 25px rgba(0,184,89,0.3);
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #10d266 0%, #00b859 50%, #009e4d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Hero gradient overlay */
+.hero-gradient {
+  background: linear-gradient(180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.6) 100%);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 3px;
+}
+
+/* Selection */
+::selection {
+  background: rgba(0,184,89,0.15);
+  color: var(--mc-gray-8);
+}
