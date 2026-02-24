@@ -51,7 +51,7 @@ export function Navigation() {
         </a>
 
         {/* Desktop Links */}
-        <div className="hidden md:flex items-center space-x-8">
+        <div className="hidden lg:flex items-center space-x-8">
           {navLinks.map((l) => (
             <a
               key={l.href}
@@ -73,7 +73,7 @@ export function Navigation() {
             도입 문의
           </a>
           <button
-            className="md:hidden text-[#313131] p-1"
+            className="lg:hidden text-[#313131] p-1"
             onClick={() => setOpen(!open)}
           >
             {open ? <X size={24} /> : <Menu size={24} />}
@@ -83,7 +83,7 @@ export function Navigation() {
 
       {/* Mobile Menu */}
       {open && (
-        <div className="md:hidden bg-white/95 backdrop-blur-md border-t border-gray-100 shadow-lg animate-in fade-in slide-in-from-top-2 duration-200">
+        <div className="lg:hidden bg-white/95 backdrop-blur-md border-t border-gray-100 shadow-lg animate-in fade-in slide-in-from-top-2 duration-200">
           <div className="px-6 py-5 space-y-1">
             {navLinks.map((l) => (
               <a
