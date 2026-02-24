@@ -115,7 +115,7 @@ export function ContactSection() {
                 </div>
                 <div className="space-y-2">
                   <label className="font-[600] text-[#313131] text-[15px]">
-                    연락처 및 이메일 <span className="text-[#10d266]">*</span>
+                    이메일 <span className="text-[#10d266]">*</span>
                   </label>
                   <input
                     type="text"

@@ -21,7 +21,7 @@ export function IdentitySection() {
               우리는 무엇을 만드는가
             </h2>
             <p className="text-[17px] font-[400] leading-[1.7] text-[#666] max-w-[640px] mx-auto">
-              CURAMEDI는{" "}
+              메디케어랩은{" "}
               <span className="text-[#00b859] font-[700]">
                 AI 기술 기반 디지털 헬스케어 솔루션
               </span>

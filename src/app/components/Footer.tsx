@@ -3,11 +3,11 @@ export function Footer() {
     <footer className="py-10 md:py-12 bg-[#fafafa] border-t border-gray-200">
       <div className="max-w-[1200px] mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center gap-5">
-          <div className="text-[22px] font-[700] text-gray-300 tracking-tight select-none">
-            CURAMEDI
+          <div className="select-none">
+            <img src="/medicarelab_logo.png" alt="MEDICARELAB" className="h-5 w-auto opacity-40" />
           </div>
           <div className="text-[#999] text-[13px] font-[500]">
-            &copy; 2026 CURAMEDI. All rights reserved.
+            &copy; 2026 MEDICARELAB. All rights reserved.
           </div>
           <div className="flex space-x-6 text-[#aaa] text-[13px]">
             <a

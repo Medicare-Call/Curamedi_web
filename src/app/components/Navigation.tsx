@@ -45,9 +45,9 @@ export function Navigation() {
             e.preventDefault();
             window.scrollTo({ top: 0, behavior: "smooth" });
           }}
-          className="text-[24px] font-[700] text-[#00b859] tracking-tight select-none"
+          className="select-none"
         >
-          CURAMEDI
+          <img src="/medicarelab_logo.png" alt="MEDICARELAB" className="h-6 w-auto" />
         </a>
 
         {/* Desktop Links */}

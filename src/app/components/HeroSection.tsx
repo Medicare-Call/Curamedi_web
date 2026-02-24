@@ -54,7 +54,7 @@ export function HeroSection() {
           transition={{ duration: 0.7, delay: 0.3 }}
           className="text-[17px] md:text-[18px] text-[#d2d2d2] leading-[1.7] mb-12 max-w-2xl mx-auto"
         >
-          CURAMEDI는 AI 기반 분석 엔진을 통해
+          메디케어랩은 AI 기반 분석 엔진을 통해
           <br className="hidden md:block" />
           고령자의 일상 데이터를 해석하고
           <br className="hidden md:block" />

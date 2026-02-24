@@ -55,7 +55,7 @@ export function TechnologySection() {
               디지털 헬스케어 아키텍처
             </h2>
             <p className="text-[17px] text-[#999] max-w-[680px] mx-auto leading-[1.7]">
-              CURAMEDI는 단순 API 결합형 서비스가 아니라,{" "}
+              메디케어랩은 단순 API 결합형 서비스가 아니라,{" "}
               <strong className="text-white font-[600]">
                 자체 통신 인프라와 AI 분석 엔진을 결합한 통합 디지털 헬스케어
                 시스템

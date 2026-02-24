@@ -31,18 +31,29 @@ export function FounderSection() {
                   </span>
                 </h4>
                 <div className="text-[#00b859] font-[700] text-[15px] mt-1">
-                  Founder & CEO, CURAMEDI
+                  Founder & CEO, MEDICARE LAB
                 </div>
               </div>
-              <div className="text-[#666] leading-relaxed italic mb-5 font-[500] text-[15px]">
-                "AI 기반 디지털 헬스케어 창업가"
+              <p className="text-[15px] text-[#555] leading-[1.75] mb-4">
+                AI 기반 디지털 헬스케어 솔루션 기업 메디케어랩의 창업자이자 대표입니다.
+                컴퓨터공학 전공을 바탕으로, AI 분석 엔진과 통신 인프라를 결합한 헬스케어 시스템을 직접 설계·구현하고 있습니다.
+              </p>
+              <p className="text-[15px] text-[#555] leading-[1.75] mb-5">
+                고령자의 일상 건강 데이터를 구조화하고, 보호자와 기관이 활용 가능한 디지털 돌봄 인프라를 구축하는 것을 목표로 합니다.
+              </p>
+              <div className="bg-[#f4fcf8] border border-[#e6faef] rounded-[14px] px-4 py-3 mb-5 text-left">
+                <p className="text-[13px] text-[#444] leading-[1.7]">
+                  첫 번째 솔루션{" "}
+                  <span className="font-[700] text-[#00b859]">AI 음성통화 기반 건강 모니터링 시스템 '메디케어콜'</span>의
+                  기술 아키텍처 및 인프라 설계를 주도하고 있습니다.
+                </p>
               </div>
               <div className="flex flex-wrap gap-2 justify-center md:justify-start">
                 <span className="bg-[#f4fcf8] text-[#313131] px-4 py-2 rounded-full text-[13px] font-[500] border border-[#e6faef]">
                   컴퓨터공학 전공
                 </span>
                 <span className="bg-[#f4fcf8] text-[#313131] px-4 py-2 rounded-full text-[13px] font-[500] border border-[#e6faef]">
-                  통신 인프라 직접 설계형 창업가
+                  AI 헬스케어 전문가
                 </span>
               </div>
             </div>
