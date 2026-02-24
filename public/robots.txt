@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://medicarelab.co.kr/sitemap.xml
+
+# Naver
+User-agent: Yeti
+Allow: /
